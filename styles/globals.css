@@ -48,3 +48,59 @@ a {
 li a:hover {
   color: blue;
 }
+
+#notfound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 25rem;
+  flex-direction: column;
+}
+
+.notfound-404 {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  color: #94838327;
+}
+
+h2 {
+  align-items: center;
+  margin: 0 3rem;
+  padding-left: 2rem;
+  font-size: 1.7rem;
+  margin-top: -15rem;
+}
+
+p {
+  align-items: center;
+  padding: 0 8rem;
+}
+
+.anchor-home {
+  background-color: blue;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  color: #fff;
+}
+
+.anchor-home:hover {
+  background-color: transparent;
+  border: 1.5px solid blue;
+  color: blue;
+  transition: col 0.5s ease;
+  -webkit-transition: co 0.5s ease;
+  -moz-transition: co 0.5s ease;
+  -ms-transition: co 0.5s ease;
+  -o-transition: co 0.5s ease;
+}
