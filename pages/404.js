@@ -42,7 +42,9 @@ const Errorpage = () => {
                 The page you are looking for might have been removed had its class 
                 changed or is temporarily unavailable.
             </p>
-            <a href="/" className="anchor-home">Back to Homepage</a>
+            <Link href="/">
+            <a className="anchor-home">Back to Homepage</a>
+            </Link>
         </div>
       </div>
     </>
