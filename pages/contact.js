@@ -4,9 +4,10 @@ const contact = () => {
   return (
     <>
       <Navbar />
-      <h1 className={styles.main_heading}>hello this is contact page</h1>
+      {/* <h1 className={styles.main_heading}>hello this is contact page</h1> */}
+      <h1 style={{color: "green"}}>hello this is contact page</h1>
     </>
   );
 };
 
-export default contact
+export default contact;
