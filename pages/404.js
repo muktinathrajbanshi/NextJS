@@ -1,5 +1,11 @@
 import Link from "next/link";
+import {useRouter} from "next/router";
+
 const Errorpage = () => {
+  const router = useRouter();
+  const handleInput = () => {
+    router.push("/");
+  };
   return (
     <>
         <nav className="menu-list">
@@ -42,9 +48,9 @@ const Errorpage = () => {
                 The page you are looking for might have been removed had its class 
                 changed or is temporarily unavailable.
             </p>
-            <Link href="/">
-            <a className="anchor-home">Back to Homepage</a>
-            </Link>
+
+            <a onClick={handleInput} className="anchor-home">Back to Homepage</a>
+    
         </div>
       </div>
     </>

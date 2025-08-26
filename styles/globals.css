@@ -98,6 +98,7 @@ p {
   background-color: transparent;
   border: 1.5px solid blue;
   color: blue;
+  cursor: pointer;
   transition: col 0.5s ease;
   -webkit-transition: co 0.5s ease;
   -moz-transition: co 0.5s ease;
