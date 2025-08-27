@@ -1,17 +1,17 @@
-import Navbar from "../components/Navbar";
-import styles from "../styles/index.module.css";
+import Header from "../components/Header";
+import Head from "next/head";
 
 const index = () => {
   return (
     <>
-      <Navbar />
-      <section className={`${styles.section} ${styles.section_hero}`}>
-        <div className={styles.hero_heading}>
-          <h1 className={styles.heading_purpose}>Welcome to Home Page</h1>
-          <p className={styles.para}>Hello, this is home page thank you so much for component based css</p>
-          <p>I am very exciting regarding this component based css</p>
-        </div>
-      </section>
+      <Head>
+        <title>Home Page</title>
+        <meta name="description" content="Free Web tutorials" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, next.js" />
+        <meta name="author" content="Muktinath Rajbanshi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+      <Header />
     </>
   );
 };
