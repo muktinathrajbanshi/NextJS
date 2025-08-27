@@ -19,10 +19,10 @@ const Blog = ({data}) => {
     <>
       <Navbar />
       {
-        data.map((curElem) => {
+        data.slice(0, 5).map((curElem) => {
           return <div key={curElem.id}>
-              <h3>{curElem.id}</h3>
-              <h2>{curElem.title}</h2>
+              <h1>{curElem.id}</h1>
+              <h1>{curElem.title}</h1>
           </div>
         })
       }
