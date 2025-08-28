@@ -5,27 +5,27 @@ const Navbar = () => {
       <nav className="menu-list">
         <ul className="menu-bar">
            <li>
-             <Link href="/">
+             <Link href="/" legacyBehavior>
                 <a>Home</a>
             </Link>
            </li>
             <li>
-            <Link href="/about">
+            <Link href="/about" legacyBehavior>
              <a>About</a>
             </Link>
             </li>
            <li>
-             <Link  href="/contact">
+             <Link  href="/contact" legacyBehavior>
                 <a>Contact</a>
             </Link>
            </li>
            <li>
-             <Link a href="/blog">
+             <Link a href="/blog" legacyBehavior>
                 <a>Blog</a>
             </Link>
            </li>
            <li>
-             <Link href="/product">
+             <Link href="/product" legacyBehavior>
                 <a>Product</a>
             </Link>
            </li>
